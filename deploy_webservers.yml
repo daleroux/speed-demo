@@ -1,6 +1,6 @@
 ---
 - name: Deploy the web servers
-  hosts: inv1
+  hosts: all
   become: true
 
   tasks:

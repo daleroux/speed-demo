@@ -1,6 +1,6 @@
 ---
 - name: Deploy the web servers
-  hosts: inv2
+  hosts: all
   become: true
   gather_facts: false
 
